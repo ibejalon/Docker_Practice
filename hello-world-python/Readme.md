@@ -16,10 +16,11 @@ Dockerfile: are the set of instructions to create a docker image. It contains th
 
 Once installed run `docker run -p 5000:5000 -d ibtesting/hello-world-python:0.0.1.RELEASE` to create container.
 `docker logs -f container id` to start up the docker image
+
 ![](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/application_running.JPG)
 
 ## Push Python app to docker hub
 Note: You can only push image into docker hub using your docker hub id. Hence, I had to build another image using my docker hub id as the repository name  `docker build -t ibudacity2020devops/hello-world-python:0.0.1.RELEASE .`
 - Log in to docker hub using :`docker log`
-- Push image to docker hub repository using : `docker push` ![dockerhub_repo](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/application_running.JPG)
+- Push image to docker hub repository using : `docker push` ![dockerhub_repo](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/dockerhub_repo.JPG)
 
