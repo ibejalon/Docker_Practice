@@ -24,6 +24,7 @@ specify the tag (i.e the hello-world-python version ) and end with "." which is 
 ![](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/docker-image.JPG)
 
 - start up the app using `docker logs -f container id` 
+
 ![](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/application_running.JPG)
 
 ## Push Python app to docker hub
