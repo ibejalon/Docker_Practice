@@ -1,6 +1,6 @@
 # Docker image for Hello-world - Python
 
-Launch.py contains the code for a simple hello world API. The API uses a Flask framework which is a dependency for the application.
+`Launch.py` contains the code for a simple hello world API. The API uses a Flask framework which is a dependency for the application.
 
 Dockerfile: are the set of instructions to create a docker image. It contains the following:
 1. Base image of Python 3:specifically, Alpine
