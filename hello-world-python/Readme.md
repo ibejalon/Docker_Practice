@@ -21,7 +21,7 @@ specify the tag (i.e the hello-world-python version ) and end with "." which is 
 ![](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/docker-container-create.JPG)
 
 - Confirm that image is created using `docker images`
-[](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/docker-image.JPG)
+![](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/docker-image.JPG)
 
 `docker logs -f container id` will start up the app
 [](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/application_running.JPG)
