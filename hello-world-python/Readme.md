@@ -15,7 +15,7 @@ Dockerfile: are the set of instructions to create a docker image. It contains th
 - Run the docker build command `docker build -t ibtesting:0.0.1.RELEASE .`, specify the tag (i.e the hello-world-python version ) and end with . which is known as the build context.The build context are the files in the current directory needed to run the application to build the image.In this case the build context are Dockerfile, launch.py and requirements.txt
 
 Once installed run `docker run -p 5000:5000 -d ibtesting/hello-world-python:0.0.1.RELEASE` to create container. 
-`-p 5000:5000` is to map the container port (5000) and map it to the host port(5000) so the application can be accessed.
+`-p 5000:5000` is to map the container port (5000) to the host port(5000) so the application can be accessed.
 
 `docker logs -f container id` will start up the docker image
 
