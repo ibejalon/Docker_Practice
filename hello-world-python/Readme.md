@@ -23,8 +23,8 @@ specify the tag (i.e the hello-world-python version ) and end with "." which is 
 - Confirm that image is created using `docker images`
 ![](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/docker-image.JPG)
 
-`docker logs -f container id` will start up the app
-[](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/application_running.JPG)
+- start up the app using `docker logs -f container id` 
+![](https://github.com/ibejalon/Docker_Practice/blob/master/hello-world-python/screen_shots/application_running.JPG)
 
 ## Push Python app to docker hub
 Note: You can only push image into docker hub using your docker hub id. Hence, I had to build another image using my docker hub id as the repository name  `docker build -t ibudacity2020devops/hello-world-python:0.0.1.RELEASE .`
